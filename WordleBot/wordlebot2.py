@@ -40,7 +40,7 @@ def select_guess_by_entropy(word_bank):
 
 def play_wordle(word_bank):
     guesses = 5
-    guess_1 = "soire"
+    guess_1 = "slate"
     print(f"Guess 1: {guess_1}")
     
     fb = input("Enter feedback for guess 1 (G/Y/X): ").strip().upper()
